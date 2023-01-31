@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially" >
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:repeatMode="reverse"
+        android:repeatCount="infinite"
+        android:valueTo="-180" >
+    </objectAnimator>
+
+</set>

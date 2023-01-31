@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#3F51B5</item>
+        <item name="android:searchViewStyle">
+            @style/searchViewStyle
+        </item>
+    </style>
+    <style name="searchViewStyle" parent="Widget.AppCompat.SearchView.ActionBar">
+
+        <item name="android:searchButtonText">@color/black</item>
+        <item name="android:searchMode">showSearchIconAsBadge</item>
+    </style>
+    <style name="myPopUpMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupElevation">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:itemBackground">@android:color/white</item>
+    </style>
+
+</resources>
